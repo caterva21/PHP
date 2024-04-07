@@ -5,12 +5,11 @@
  * isset is a function that checks if a variable is set and is not null
  * @file: isset.php
  * @date 05/04/2024
- * @version 1.0 */
+ * @version 2.0 */
 
     if(isset($_POST['submit'])){
         $name = (isset($_POST['name']))?$_POST['name']:"";
         $email = (isset($_POST['email']))?$_POST['email']:"";
-        echo "Nombre: $name <br> Correo: $email";
     }
 ?>
 <!DOCTYPE html>
@@ -22,7 +21,12 @@
     <title>PHP</title>
 </head>
 <body>
-    <form action ="index.php" method = "post">
+    <?php if(isset($_POST['submit'])){?>
+        <h1>Nombre: <?php echo $name;?></h1>
+        <h1>Correo: <?php echo $email;?></h1>
+    <?php }?>
+
+    <form action ="isset.php" method = "post">
         <input type = "text" name = "name" placeholder = "Nombre">
         <input type = "text" name = "email" placeholder = "Correo">
         <input type = "submit" name = "submit" value = "Enviar">
