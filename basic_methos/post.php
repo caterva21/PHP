@@ -1,6 +1,6 @@
 <?php
-/* @brief Post methos
- * @details A form is used to apply the post method
+/* @brief A form is used to apply the post method
+ * @details used isset
  * @file post.php
  * @date 30/03/2024
  * @version 1.0*/

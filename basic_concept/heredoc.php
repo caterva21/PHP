@@ -1,6 +1,6 @@
 <?php
-/* @brief: Heredoc
- * @details: Heredoc es una forma de definir cadenas de texto largas en PHP.
+/* @brief: Heredoc es una forma de definir cadenas de texto largas en PHP.
+ * @details: heredoc usage mode.
  * @file: heredoc.php
  * @date: 06/04/2024
  * @version 1.0 */

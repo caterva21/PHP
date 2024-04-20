@@ -1,8 +1,7 @@
 <?php
-/* @brief: isset whit method post 
- * @details:
- * used isset to check if the submit button was pressed
- * isset is a function that checks if a variable is set and is not null
+/* @brief: used isset to check if the submit button was pressed
+ * isset is a function that checks if a variable is set and is not null   
+ * @details: isset whit method post 
  * @file: isset.php
  * @date 05/04/2024
  * @update: we add code php into the HTML
