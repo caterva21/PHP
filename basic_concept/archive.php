@@ -21,7 +21,7 @@ $file="";
         $file=$_FILES["archive"]["name"];
         $temporal=$_FILES["archive"]["tmp_name"];
 
-        move_uploaded_file($temporal,"D:/program/practices/temp/image".$file);
+        move_uploaded_file($temporal,"D:/program/practices/temp/image/".$file);
         
     }?>
 
